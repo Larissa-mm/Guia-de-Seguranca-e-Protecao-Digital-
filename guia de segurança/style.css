@@ -1,0 +1,191 @@
+/* ===================================================
+   1. RESET BÁSICO E TIPOGRAFIA
+   =================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #334155;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+
+/* ===================================================
+   2. CABEÇALHO COM DEGRADÊ
+   =================================================== */
+header {
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #ffffff;
+  text-align: center;
+  padding: 35px 20px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* ===================================================
+   3. ESTRUTURA RESPONSIVA (CELULAR & DESKTOP)
+   =================================================== */
+.container {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ===================================================
+   4. CARDS DE CONTEÚDO
+   =================================================== */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card-idoso {
+  border-top: 5px solid #3b82f6;
+}
+
+.card-familia {
+  border-top: 5px solid #0d9488;
+}
+
+/* ===================================================
+   5. DISTRINTIVOS (BADGES)
+   =================================================== */
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.badge-azul {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-verde {
+  background-color: #ccfbf1;
+  color: #0f766e;
+}
+
+/* ===================================================
+   6. HIERARQUIA DE TEXTO
+   =================================================== */
+h2 {
+  font-size: 21px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 17px;
+  color: #1e293b;
+  margin: 18px 0 8px 0;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+/* ===================================================
+   7. BLOCO DE ALERTA EM DESTAQUE
+   =================================================== */
+.alerta {
+  background-color: #ef9d9d;
+  border-left: 4px solid #c53737;
+  padding: 14px;
+  border-radius: 6px;
+  margin: 16px 0;
+  font-size: 15px;
+  color: #170a01;
+}
+
+/* ===================================================
+   8. LISTAS
+   =================================================== */
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* ===================================================
+   9. ELEMENTOS VISUAIS E RODAPÉ
+   =================================================== */
+.imagem-explicativa {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 14px 0;
+  border: 1px solid #e2e8f0;
+  display: block;
+}
+/* Estilo discreto para a nota de rodapé de referências */
+.referencias-nota {
+  margin-top: 40px;
+  padding: 10px 16px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.linha-divisoria {
+  border: 0;
+  border-top: 1px solid #cbd5e1;
+  margin-bottom: 16px;
+}
+
+.referencias-titulo {
+  font-size: 13px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.referencias-lista {
+  list-style: none;
+  padding-left: 0;
+}
+
+.referencias-lista li {
+  font-size: 12px;
+  margin-bottom: 8px;
+  word-break: break-word;
+  color: #64748b;
+}
+
+.referencias-lista a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #94a3b8;
+  margin-top: 30px;
+}
