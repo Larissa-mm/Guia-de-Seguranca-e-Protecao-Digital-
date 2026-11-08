@@ -19,7 +19,7 @@ body {
    2. CABEÇALHO COM DEGRADÊ
    =================================================== */
 header {
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  background: linear-gradient(135deg, #497afe, #3b82f6);
   color: #ffffff;
   text-align: center;
   padding: 35px 20px;
@@ -188,4 +188,13 @@ footer {
   font-size: 13px;
   color: #94a3b8;
   margin-top: 30px;
+}
+/* 1. Transição suave ao clicar nos links do sumário */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Dão um "respiro" no topo para o título não colar na borda da tela */
+section[id] {
+  scroll-margin-top: 24px;
 }
